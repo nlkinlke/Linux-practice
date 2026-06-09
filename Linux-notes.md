@@ -9,7 +9,7 @@ ls -l / (long listing format in root directory)
 pwd (print working directory)
 cd (change directory)
 ```
-##Basic file editing
+## Basic file editing
 ```bash
 touch (create empty files or update timestamps)
 nano (simple command-line text editor)
@@ -17,4 +17,6 @@ cat (concatenate and display file content)
 which (show the full path of a command)
 vim (powerful text editor in terminal)
 ```
-##
+## Moving and renaming files
+```bash
+
