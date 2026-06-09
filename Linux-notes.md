@@ -19,4 +19,9 @@ vim (powerful text editor in terminal)
 ```
 ## Moving and renaming files
 ```bash
-
+cp (copy file)
+diff (difference)
+rm (remoove file)
+mkdir (make directory)
+mv (moove file)
+```
