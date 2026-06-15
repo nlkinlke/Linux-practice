@@ -25,3 +25,13 @@ rm (remoove file)
 mkdir (make directory)
 mv (moove file)
 ```
+## Understanding Permissions
+```bash
+chmod (change mod)
+(r - read
+ w - write
+ x - execute)
+(u - user
+ g - group
+ o - others
+ a - all)
