@@ -36,3 +36,14 @@ chmod (change mod)
  o - others
  a - all)
 ```
+## Checking Resource Usage
+```bash
+free (display free and used memory)
+free -m (display memory in megabytes)
+df (display disk space usage)
+df -h (display disk space in human-readable format)
+df -i (display inode usage instead of block usage)
+htop (interactive process viewer and system monitor)
+uptime (show how long the system has been running)
+```
+
