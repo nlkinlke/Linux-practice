@@ -1,14 +1,16 @@
 # Linux-notes
+
 ## Navigation commands
 ```bash
 ls (list storage)
 ls / (root directory contents)
-clear (clear the screan)
+clear (clear the screen)
 ls -l (long listing format)
 ls -l / (long listing format in root directory)
 pwd (print working directory)
 cd (change directory)
 ```
+
 ## Basic file editing
 ```bash
 touch (create empty files or update timestamps)
@@ -17,25 +19,23 @@ cat (concatenate and display file content)
 which (show the full path of a command)
 vim (powerful text editor in terminal)
 ```
+
 ## Moving and renaming files
 ```bash
 cp (copy file)
 diff (difference)
-rm (remoove file)
+rm (remove file)
 mkdir (make directory)
-mv (moove file)
+mv (move file)
 ```
+
 ## Understanding Permissions
 ```bash
-chmod (change mod)
-(r - read
- w - write
- x - execute)
-(u - user
- g - group
- o - others
- a - all)
+chmod (change mode)
+(r - read w - write x - execute)
+(u - user g - group o - others a - all)
 ```
+
 ## Checking Resource Usage
 ```bash
 free (display free and used memory)
@@ -47,3 +47,13 @@ htop (interactive process viewer and system monitor)
 uptime (show how long the system has been running)
 ```
 
+## Intro to Package Management on Debian-based Distributions
+```bash
+sudo apt update (update package lists from repositories)
+sudo apt upgrade (upgrade all available packages)
+sudo apt dist-upgrade (upgrade packages with smart dependency handling)
+sudo apt install (install a specific package)
+sudo apt search (search for a package description)
+sudo apt remove (remove a package keeping configuration files)
+sudo apt autoremove (automatically remove unused dependency packages)
+```
