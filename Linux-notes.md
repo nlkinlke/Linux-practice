@@ -57,3 +57,14 @@ sudo apt search (search for a package description)
 sudo apt remove (remove a package keeping configuration files)
 sudo apt autoremove (automatically remove unused dependency packages)
 ```
+## Managing systemd Units
+```bash
+systemctl status (show the current status of a service)
+systemctl disable (prevent a service from starting automatically at boot)
+systemctl stop (stop a running service immediately)
+systemctl enable (configure a service to start automatically at boot)
+systemctl start (start a service immediately)
+systemctl restart (stop and then start a service again)
+```
+## Viewing Logs
+```bash
