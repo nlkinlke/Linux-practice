@@ -68,3 +68,12 @@ systemctl restart (stop and then start a service again)
 ```
 ## Viewing Logs
 ```bash
+## Viewing Logs
+```bash
+/var/log/syslog (main system log file for general messages and system events)
+dmesg (display kernel ring buffer messages and hardware diagnostic logs)
+head (show first 10 lines); head -n (show specific number of lines from start)
+tail (show last 10 lines); tail -n (show specific number of lines from end); tail -f (follow log changes in real-time)
+journalctl (query systemd-journald database); -u (filter by unit/service); -f (follow logs in real-time); -fu (follow specific service logs in real-time); -p (filter by priority/error level); -b (show logs from the current boot only)
+grep (search for matching text patterns using pipelines)
+```
