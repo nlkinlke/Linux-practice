@@ -68,12 +68,25 @@ systemctl restart (stop and then start a service again)
 ```
 ## Viewing Logs
 ```bash
-## Viewing Logs
-```bash
 /var/log/syslog (main system log file for general messages and system events)
 dmesg (display kernel ring buffer messages and hardware diagnostic logs)
 head (show first 10 lines); head -n (show specific number of lines from start)
 tail (show last 10 lines); tail -n (show specific number of lines from end); tail -f (follow log changes in real-time)
 journalctl (query systemd-journald database); -u (filter by unit/service); -f (follow logs in real-time); -fu (follow specific service logs in real-time); -p (filter by priority/error level); -b (show logs from the current boot only)
 grep (search for matching text patterns using pipelines)
+```
+## Managing Users
+```bash
+cat /etc/passwd (print users)
+cat /etc/shadow (print passwords)
+cat /etc/group (print groups)
+groups (print groups)
+sudo adduser [name] (add new user)
+su - [new user name] (login with new user)
+passwd (update password)
+sudo userdel -r [user name] (remove user)
+sudo groupadd [group name] (add new group)
+sudo usermod -aG [group name] [user name] (add user to group)
+sudo gpasswd -d [user name] [group name] (remove user from group)
+sudo groupdel [group name] (remove group)
 ```
