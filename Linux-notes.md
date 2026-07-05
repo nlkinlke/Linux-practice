@@ -90,3 +90,9 @@ sudo usermod -aG [group name] [user name] (add user to group)
 sudo gpasswd -d [user name] [group name] (remove user from group)
 sudo groupdel [group name] (remove group)
 ```
+## Bash history
+```bash
+history (print bash history)
+```
+## Output Redirection
+```bash
