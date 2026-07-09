@@ -101,5 +101,12 @@ uniq (remove duplicate lines from a sorted file)
 grep -v [string] (invert match to display lines that do not match the pattern)
 wc -l (count the total number of lines)
 ```
-
+## Streams
+```bash
+echo $? (print exit status of the last executed command)
+find /path/to/search -name "filename" (search for files and directories by name in a specific path)
+stdin 0, stdout 1, stderr 2 (0-input, 1-output, 2-errors)
+-name (flag to filter search results by name)
+/dev/null (the null device that discards all data written to it or returns EOF on read)
 ```
+
