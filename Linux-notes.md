@@ -96,3 +96,10 @@ history (print bash history)
 ```
 ## Output Redirection
 ```bash
+sort (sort lines textually)
+uniq (remove duplicate lines from a sorted file)
+grep -v [string] (invert match to display lines that do not match the pattern)
+wc -l (count the total number of lines)
+```
+
+```
