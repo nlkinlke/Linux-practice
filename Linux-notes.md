@@ -111,4 +111,9 @@ stdin 0, stdout 1, stderr 2 (0-input, 1-output, 2-errors)
 ```
 ## Variables
 ```bash
-
+[var_name]="[value]" (creating new var - NO spaces around operations)
+echo $[var_name] (print variable value)
+env (var list)
+export [var_name]="[value]" (add var to env)
+unset [var_name] (remove var from env)
+```
