@@ -109,4 +109,6 @@ stdin 0, stdout 1, stderr 2 (0-input, 1-output, 2-errors)
 -name (flag to filter search results by name)
 /dev/null (the null device that discards all data written to it or returns EOF on read)
 ```
+## Variables
+```bash
 
