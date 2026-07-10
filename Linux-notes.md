@@ -130,3 +130,7 @@ unset [var_name] (remove var from env)
 yum upgrade (centOS)
 dnf or yum upgrade (fedora)
 ```
+## Changing Permissions Numerically
+```bash
+
+```
