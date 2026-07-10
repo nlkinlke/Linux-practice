@@ -127,5 +127,6 @@ unset [var_name] (remove var from env)
 ```
 ## Package Management on Fedora and CentOS (dnf and yum)
 ```bash
-
+yum upgrade (centOS)
+dnf or yum upgrade (fedora)
 ```
