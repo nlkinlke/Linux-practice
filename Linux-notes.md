@@ -93,6 +93,7 @@ sudo groupdel [group name] (remove group)
 ## Bash history
 ```bash
 history (print bash history)
+history -c && history -w (clean history)
 ```
 ## Output Redirection
 ```bash
@@ -116,4 +117,15 @@ echo $[var_name] (print variable value)
 env (var list)
 export [var_name]="[value]" (add var to env)
 unset [var_name] (remove var from env)
+```
+## The find command 
+```bash
+-type (search by type)
+-type f (file)
+-type d (directory)
+-mtime [day] (search by date)
+```
+## Package Management on Fedora and CentOS (dnf and yum)
+```bash
+
 ```
