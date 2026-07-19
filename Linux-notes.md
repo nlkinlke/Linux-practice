@@ -136,5 +136,12 @@ r-4, w-2, x-1
 ```
 ## Remote Management with OpenSSH
 ```bash
-
+ip a (show all network interfaces and IP addresses)
+ssh [name]@[ip] (connect to a remote host via secure shell)
+```
+## Transferring Files with scp
+```bash
+scp [file name] [name]@[ip]:[folder] (copy a local file to a remote host)
+scp -r [folder name] [name]@[ip]:[folder] (recursively copy a local folder to a remote host)
+scp [name]@[ip]:[file name] [folder name] (copy a remote file to a local directory)
 ```
